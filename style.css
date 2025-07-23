@@ -372,5 +372,23 @@
         padding: 30px;
         justify-items: center;
         margin-top: 15px;
+        margin-bottom: 80px;
+    }
+    .plant-lover{
+        flex-direction: column;
+        margin-top: 0px;
+    }
+    .badge{
+        display: none;
+    }
+    .plant-lover-content h3{
+        font-size: 24px;
+    }
+    .plant-lover-content li{
+        font-size: 14px;
+    }
+    .plant-lover-image img{
+        width: 358px;
+        height: 396px;
     }
 }
