@@ -68,7 +68,7 @@
     align-items: flex-end;
     justify-content: space-between;
     margin-top: 100px;
-    margin-bottom: 150px;
+    margin-bottom: 250px;
 }
 .banner-content{
     width: 50%;
@@ -116,7 +116,7 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 30px;
-    margin: 70px auto 250px auto;
+    margin: 70px auto 350px auto;
 }
 .plant-lover-content h3{
     font-size: 50px;
