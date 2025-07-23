@@ -482,4 +482,17 @@
         width: 367px;
         height: 202px;
     }
+    .join-content h3{
+        font-size: 20px;
+    }
+    .join-content-form input{
+        width: 218px;
+        height: 50px;
+    }
+    .join-content-form button{
+        height: 50px;
+        width: 103px;
+        font-size: 16px;
+    }
+    
 }
