@@ -402,7 +402,7 @@
         justify-items: center;
         margin-top: 15px;
         column-gap: 2px;
-        gap: 20px;
+        gap: 30px;
         margin-bottom: 80px;
     }
 
@@ -494,5 +494,25 @@
         width: 103px;
         font-size: 16px;
     }
-    
+    .footer{
+        flex-direction: column;
+        justify-content: left;
+        align-items: flex-start; 
+        padding: none;
+        gap: 0px;
+        margin-bottom: 10px;
+    }
+    .footer1{
+        height: 80%;
+        margin-left: 35px;
+    }
+    .footer1 p{
+        font-size: 16px;
+    }
+    .footer2{
+        margin-top: 50px;
+        width: auto;
+        height: auto;
+        margin-left: 35px;
+    }
 }
