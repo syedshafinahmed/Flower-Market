@@ -294,3 +294,39 @@
     height: 533px;
     width: auto;
 }
+
+.footer1{
+    font-size: 22px;
+    font-weight: normal;
+    color: rgba(0, 0, 0, 0.5);
+    width: 360px;
+    height: 180px;
+}
+.footer2{
+    width: 150px;
+    height: 148px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.footer3{
+    display: flex;
+    position: absolute;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+    top: 15%;
+    right: 1%;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+    margin: 80px auto 180px auto;
+}
+.footer3d{
+    position: relative;
+    width: 250px;
+    height: 250px;
+}
