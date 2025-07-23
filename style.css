@@ -128,6 +128,7 @@
 .plant {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    place-items: center;
     gap: 30px;
     margin: 70px auto 350px auto;
 }
