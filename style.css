@@ -430,6 +430,7 @@
     .plant-lover {
         flex-direction: column;
         margin-top: 0px;
+        margin-bottom: -10px;
     }
 
     .badge {
@@ -448,5 +449,37 @@
     .plant-lover-image img {
         width: 358px;
         height: 396px;
+    }
+
+    .latest-deals-content-right img,
+    .overlay-right {
+        width: 367px;
+        height: 201px;
+    }
+
+    .latest-deals-content-texts-right h3 {
+        font-size: 16px;
+        top: 40%;
+        left: 50%;
+    }
+
+    .latest-deals-content-texts-right p {
+        font-size: 16px;
+        top: 60%;
+        left: 50%;
+    }
+
+    .latest-deals {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+        margin-bottom: 150px;
+    }
+
+    .latest-deals-content-right {
+        position: relative;
+        width: 367px;
+        height: 202px;
     }
 }
