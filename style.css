@@ -78,7 +78,7 @@
 }
 
 .banner-content {
-    width: 50%;
+    /* width: 50%; */
 }
 
 .comment h3 {
@@ -337,13 +337,34 @@
 }
 
 @media screen and (max-width:768px) {
-    .header h6, p{
+    .header h6, .header p{
         display: none;
     }  
     .header{
         padding: 0 30px;
     }
     .banner{
-        
+        flex-direction: column-reverse;
+        margin-bottom: 10px;
+    }
+    .banner-content{
+        padding:  0 30px;
+        margin-top: 28px;
+    }
+    .banner-content p{
+        font-size: 14px;
+        margin-top: 13px;
+    }
+    .banner-content h3{
+        font-size: 24px;
+    }
+    .comment h3{
+        font-size: 24px;
+    }
+    .comment p{
+        font-size: 14px;
+    }
+    .comment{
+        margin-top: 100px;
     }
 }
